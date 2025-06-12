@@ -202,6 +202,19 @@ section {
   z-index: -99;
   margin-top: 1rem;
   right: 0;
+  animation: opa 2s ease-in-out infinite;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
 }
 
 .home .content h2 {
@@ -256,7 +269,19 @@ section {
   right: 0.8rem;
   max-width: 3.8rem;
   cursor: pointer;
-  rotate: 10deg;
+  animation: tiptip 5s ease-in-out infinite;
+}
+
+@keyframes tiptip {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(10rem);
+  }
 }
 
 .home .content h2 .phone-1:hover {
