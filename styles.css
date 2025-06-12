@@ -202,7 +202,7 @@ section {
   z-index: -99;
   margin-top: 1rem;
   right: 0;
-  animation: opa 2s ease-in-out infinite;
+  animation: opa 3s ease-in-out infinite;
 }
 
 @keyframes opa {
