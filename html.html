@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fake Visitors Generator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f4fila;
+      }
+      input[type="text"],
+      input[type="number"] {
+        width: 300px;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #output {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Fake Visitors Generator (Client-Side)</h2>
+    <p>Enter URL and number of visitors:</p>
+    <input type="text" id="urlInput" placeholder="URL" />
+    <input type="number" id="visitsInput" min="1" placeholder="Visitors" />
+    <button onclick="generateFakeVisitors()">Generate</button>
+
+    <div id="output"></div>
+
+    <script>
+      function generateFakeVisitors() {
+        const url = document.getElementById("urlInput").value;
+        const visits = parseInt(document.getElementById("visitsInput").value);
+
+        if (!url || isNaN(visits) || visits < 1) {
+          alert("Please enter a valid URL and number of visitors.");
+          return;
+        }
+
+        let output = `<h3>Simulating ${visits} fake visits to: ${url}</h3>`;
+        document.getElementById("output").innerHTML = output;
+
+        // Simulate multiple browser tabs/windows with delays
+        for (let i = 0; i < visits; i++) {
+          setTimeout(() => {
+            window.open(url, "fake_visitor_" + i);
+          }, Math.random() * 1000); // Random delay to mimic human behavior
+        }
+
+        alert("Fake traffic generated! Note: Google Ads may detect this.");
+      }
+    </script>
+  </body>
+</html>
