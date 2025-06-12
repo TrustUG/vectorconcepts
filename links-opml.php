@@ -13,7 +13,7 @@ if ( ! empty( $_GET['link_cat'] ) ) {
 
 echo '<?xml version="1.0"?' . ">\n";
 ?>
-<opml version="1.0">
+<opml version="1.5">
 	<head>
 		<title>
 		<?php
