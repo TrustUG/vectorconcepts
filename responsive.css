@@ -305,3 +305,24 @@
     max-width: 38rem;
   }
 }
+
+@media (max-width: 497px) {
+  .home .content .is5-1 {
+    rotate: -7deg;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .home .content .is5-1 {
+    rotate: -7deg;
+    margin-top: 1.7rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .home .content .is5-1 {
+    rotate: -7deg;
+    margin-top: 1.7rem;
+  }
+}
