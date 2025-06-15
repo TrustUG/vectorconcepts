@@ -438,6 +438,7 @@ section {
   max-width: 26.6rem;
   padding-bottom: 0.5rem;
   color: var(--para-color);
+  line-height: 1.6rem;
   font-weight: 500;
 }
 
@@ -511,6 +512,7 @@ section {
   padding-bottom: 0.5rem;
   color: var(--para-color);
   font-weight: 500;
+  line-height: 1.3rem;
   margin-top: 0.5rem;
 }
 
@@ -564,6 +566,7 @@ section {
   font-weight: 500;
   display: flex;
   flex-direction: column;
+  line-height: 1.6rem;
   gap: 0.8rem;
   margin-bottom: -1.7rem;
 }
@@ -651,12 +654,13 @@ section {
   gap: 1.5rem;
   padding-bottom: 0.5rem;
   color: var(--para-color);
+  line-height: 1.6rem;
   font-weight: 500;
   display: flex;
   /* flex-direction: column; */
   gap: 3rem;
   text-align: center;
-  margin-top: 0.3rem;
+  margin-top: -0.5rem;
 }
 
 .our-team .heading p span {
@@ -734,5 +738,4 @@ section {
 }
 
 .services {
-  
 }
