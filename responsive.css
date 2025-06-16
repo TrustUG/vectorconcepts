@@ -53,7 +53,7 @@
   }
 
   .header-cont header #nav-mobo {
-    border-radius: 0 0 4rem 4rem;
+    /* border-radius: 0 0 4rem 4rem; */
     position: relative;
     background: linear-gradient(
       135deg,
@@ -62,13 +62,13 @@
       #ffe9eb 50%,
       #ffedee 75%,
       #ffdadb 100%
-    );  
+    );
     display: flex;
     position: fixed;
     top: 0;
     left: 0.7rem;
     right: 0.7rem;
-    height: 38vh;
+    height: 35rem;
     flex-direction: column;
     transform: translateY(-100%);
     gap: 3rem;

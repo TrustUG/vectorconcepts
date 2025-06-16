@@ -183,7 +183,7 @@ section {
 
 /* sections ddd  */
 section {
-  padding-top: 9rem;
+  padding-top: 8.3rem;
   z-index: 99;
 }
 
@@ -802,5 +802,23 @@ section {
   text-align: center;
 }
 
-.services .services-wallper {
+.services .services-wallper .box {
+  background-color: var(--bg-color);
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+.services .services-wallper .box .icons-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .services-wallper .box .icons-cont .icon {
+  background-color: #d9d9d9;
+  box-shadow: var(--box-shadow);
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  border: solid 0.5rem var(--bg-color);
 }
