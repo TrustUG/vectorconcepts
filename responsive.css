@@ -293,7 +293,11 @@
 
 @media (max-width: 428px) {
   .our-team .heading p {
-    gap: 2rem;
+    gap: 1.7rem;
+  }
+
+  .services .heading p {
+    gap: 1.7rem;
   }
 }
 
