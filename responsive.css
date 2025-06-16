@@ -137,7 +137,9 @@
   }
 
   .why-us .heading p,
-  .about .heading p {
+  .about .heading p,
+  .testimonial .heading p,
+  .services .heading p {
     font-size: 1.1rem;
     padding-top: 0.8rem;
     gap: 1.2rem;
@@ -361,7 +363,8 @@
 
 @media (max-width: 646px) {
   /* wallper  */
-  .services .services-wallper {
+  .services .services-wallper,
+  .testimonial .wallper {
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
