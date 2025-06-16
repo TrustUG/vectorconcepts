@@ -53,7 +53,16 @@
   }
 
   .header-cont header #nav-mobo {
-    background: rgb(255, 255, 255);
+    border-radius: 0 0 4rem 4rem;
+    position: relative;
+    background: linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #fef7f7 25%,
+      #ffe9eb 50%,
+      #ffedee 75%,
+      #ffdadb 100%
+    );  
     display: flex;
     position: fixed;
     top: 0;
