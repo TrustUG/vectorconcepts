@@ -52,6 +52,25 @@
     display: none;
   }
 
+  .header-cont header #nav-mobo {
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0.7rem;
+    right: 0.7rem;
+    height: 38vh;
+    flex-direction: column;
+    transform: translateY(-100%);
+    gap: 3rem;
+    z-index: -99;
+  }
+
+  .header-cont header .nav-mobo a {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
   #nav-btn {
     display: none;
   }
