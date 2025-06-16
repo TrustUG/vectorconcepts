@@ -804,8 +804,14 @@ section {
 
 .services .services-wallper .box {
   background-color: var(--bg-color);
-  padding: 2rem;
+  padding: 3rem 1.2rem 4rem;
   border-radius: 3rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .services .services-wallper .box .icons-cont {
@@ -817,8 +823,37 @@ section {
 .services .services-wallper .box .icons-cont .icon {
   background-color: #d9d9d9;
   box-shadow: var(--box-shadow);
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 4.7rem;
+  width: 4.7rem;
   border-radius: 50%;
   border: solid 0.5rem var(--bg-color);
+  cursor: pointer;
+}
+
+.services .services-wallper .box .icons-cont .icon-1 {
+  z-index: 22;
+}
+
+.services .services-wallper .box .icons-cont .icon-2 {
+  margin-left: -2rem;
+}
+
+.services .services-wallper .box .icons-cont .icon-2:hover {
+  z-index: 33;
+}
+
+.services .services-wallper .box  h3 {
+  margin-top: .7rem;
+  font-size: 1.25rem;
+  color: var(--text-color);
+  font-weight: 590;
+}
+
+.services .services-wallper .box  p {
+  margin-top: .4rem;
+  font-size: 1rem;
+  color: var(--para-color);
+  font-weight: 500;
+  /* background-color: red; */
+  max-width: 13rem;
 }
