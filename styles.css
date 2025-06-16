@@ -626,7 +626,7 @@ section {
   z-index: 22;
   /* background-color: red; */
   max-width: 62rem;
-  margin: 8.8rem auto 0;
+  margin: 8rem auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -688,7 +688,7 @@ section {
     transform: scale();
   }
   to {
-    transform: scale(1.08);
+    transform: scale(1.04);
   }
 }
 
@@ -698,7 +698,7 @@ section {
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 6rem;
+  gap: 5rem;
 }
 
 .our-team .team-wallper .member {
@@ -709,8 +709,8 @@ section {
 }
 
 .our-team .team-wallper .member .image-cont {
-  height: 11.5rem;
-  width: 11.5rem;
+  height: 11rem;
+  width: 11rem;
   background-color: #d9d9d9;
   border-radius: 50%;
   overflow: hidden;
@@ -737,5 +737,54 @@ section {
   margin-top: 0.35rem;
 }
 
-.services {
+/* services section */
+.services .heading h3 {
+  font-size: 2.5rem;
+  font-weight: 570;
+  color: var(--text-color);
+  text-transform: capitalize;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+}
+
+.services .heading p {
+  /* background-color: red; */
+  font-size: 1.1rem;
+  /* max-width: 28rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--para-color);
+  line-height: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3rem;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.services .heading p span {
+  max-width: 28rem;
+  margin-top: 1rem;
+}
+
+.services .heading p img {
+  width: 3.5rem;
+  margin-top: -3rem;
+}
+
+.services .heading p .image-2 {
+  width: 5rem;
+  cursor: pointer;
+  animation: rotateShap 8s ease-in-out infinite;
+}
+
+.services .heading p .image-1 {
+  rotate: 10deg;
+  animation: pall 2s ease-in-out infinite;
+  cursor: pointer;
 }
