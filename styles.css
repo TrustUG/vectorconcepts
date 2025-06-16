@@ -195,7 +195,7 @@ section {
   /* text-align: center; */
 }
 
-.home .content .is5-1 {
+.is5-1 {
   position: absolute;
   width: 90%;
   rotate: -10deg;
@@ -210,7 +210,7 @@ section {
     opacity: 0.3;
   }
   50% {
-    opacity: 1;
+    opacity: 0.7;
   }
   100% {
     opacity: 0.3;
@@ -997,4 +997,58 @@ section {
 .testimonial .wallper .box .star-cont svg {
   width: 1.2rem;
   fill: #ff9900;
+}
+
+/* gallery section  */
+.gallery .heading h3 {
+  font-size: 2.5rem;
+  font-weight: 570;
+  color: var(--text-color);
+  text-transform: capitalize;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+}
+
+.gallery .heading p {
+  /* background-color: red; */
+  font-size: 1.1rem;
+  /* max-width: 28rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--para-color);
+  line-height: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3rem;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.gallery .heading p span {
+  max-width: 28rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.gallery .heading p img {
+  width: 3.5rem;
+  margin-top: -3rem;
+}
+
+.gallery .heading p .image-2 {
+  width: 3.5rem;
+  cursor: pointer;
+  animation: pall 8s ease-in-out infinite;
+  rotate: -200deg;
+}
+
+.gallery .heading p .image-1 {
+  rotate: 10deg;
+  animation: tiptip 5s ease-in-out infinite;
+  cursor: pointer;
 }
