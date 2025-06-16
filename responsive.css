@@ -358,3 +358,16 @@
     margin-top: 1.7rem;
   }
 }
+
+@media (max-width: 646px) {
+  /* wallper  */
+  .services .services-wallper {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+  }
+}
