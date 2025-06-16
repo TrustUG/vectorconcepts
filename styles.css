@@ -814,6 +814,10 @@ section {
   flex-direction: column;
 }
 
+.services .services-wallper .box:hover {
+  transform: scale(1.02);
+}
+
 .services .services-wallper .box .icons-cont {
   display: flex;
   align-items: center;
