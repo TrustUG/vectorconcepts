@@ -553,7 +553,7 @@ section {
 
 .about .heading h3 img {
   position: absolute;
-  right: -1rem;
+  right: -3rem;
   max-width: 2.5rem;
   top: 0;
 }
@@ -665,6 +665,7 @@ section {
 
 .our-team .heading p span {
   max-width: 28rem;
+  text-align: center;
 }
 
 .our-team .heading p img {
@@ -770,6 +771,7 @@ section {
 .services .heading p span {
   max-width: 28rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .services .heading p img {
@@ -801,5 +803,5 @@ section {
 }
 
 .services .services-wallper {
-  
+
 }
