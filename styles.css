@@ -903,6 +903,7 @@ section {
   line-height: 1.6rem;
   font-weight: 500;
   display: flex;
+  font-size: 1rem;
   /* flex-direction: column; */
   gap: 3rem;
   text-align: center;
@@ -913,6 +914,7 @@ section {
   max-width: 28rem;
   margin-top: 1rem;
   text-align: center;
+  font-size: 1rem;
 }
 
 .testimonial .heading p img {
@@ -1030,9 +1032,10 @@ section {
 }
 
 .gallery .heading p span {
-  max-width: 28rem;
+  max-width: 29rem;
   margin-top: 1rem;
   text-align: center;
+  font-size: 1rem;
 }
 
 .gallery .heading p img {
