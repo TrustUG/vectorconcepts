@@ -335,7 +335,7 @@ section {
 
 .home .content .images-cont .image {
   background-color: #d9d9d9;
-  height: 17rem;
+  height: 16rem;
   width: 14rem;
   border-radius: 2.5rem;
   cursor: pointer;
@@ -460,20 +460,20 @@ section {
   cursor: pointer;
 }
 
-.why-us .box-cont .box-1:hover {
-  margin-top: -0.3rem;
+.why-us .box-cont .box:hover {
+  transform: translateY(-1rem);
 }
 
 .why-us .box-cont .box-2 {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
-
+/* 
 .why-us .box-cont .box-2:hover {
   margin-top: 1rem;
-}
+} */
 
 .why-us .box-cont .box-3 {
-  margin-top: 3.5rem;
+  margin-top: 6rem;
 }
 
 .why-us .box-cont .box-3:hover {
@@ -809,7 +809,7 @@ section {
 .services .services-wallper .box {
   background-color: var(--bg-color);
   padding: 3rem 1.2rem 4rem;
-  border-radius: 2.7rem;
+  border-radius: 2.2rem;
   box-shadow: var(--box-shadow);
   cursor: pointer;
   display: flex;
@@ -946,7 +946,7 @@ section {
 .testimonial .wallper .box {
   background-color: var(--bg-color);
   padding: 2rem 1.1rem 2.5rem;
-  border-radius: 2.7rem;
+  border-radius: 2.2rem;
   box-shadow: var(--box-shadow);
   cursor: pointer;
   display: flex;
