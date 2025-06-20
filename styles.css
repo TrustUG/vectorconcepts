@@ -1132,7 +1132,7 @@ section {
   line-height: 0;
   padding: 1.4rem 1.3rem;
   border-radius: 50rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-weight: 400;
   border: solid 0.1rem var(--main-color);
 }
@@ -1146,20 +1146,16 @@ section {
   width: 1.8rem;
 }
 
-/* news latter  */
-.news-letter {
+/* contact section  */
+.contact {
   padding-top: 10rem;
-  z-index: 22;
-  position: relative;
-  max-width: 60rem;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.news-letter .heading h3 {
+.contact .heading h3 {
   font-size: 2.5rem;
   font-weight: 570;
   color: var(--text-color);
@@ -1169,7 +1165,7 @@ section {
   text-align: center;
 }
 
-.news-letter .heading p {
+.contact .heading p {
   /* background-color: red; */
   font-size: 1.1rem;
   /* max-width: 28rem; */
@@ -1188,26 +1184,26 @@ section {
   margin-top: -0.5rem;
 }
 
-.news-letter .heading p span {
+.contact .heading p span {
   max-width: 29rem;
   margin-top: 1rem;
   text-align: center;
   font-size: 1rem;
 }
 
-.news-letter .heading p img {
+.contact .heading p img {
   width: 3.5rem;
   margin-top: -3rem;
 }
 
-.news-letter .heading p .image-2 {
+.contact .heading p .image-2 {
   width: 3.5rem;
   cursor: pointer;
   animation: pall 8s ease-in-out infinite;
   rotate: -200deg;
 }
 
-.news-letter .heading p .image-1 {
+.contact .heading p .image-1 {
   rotate: 10deg;
   animation: tiptip 5s ease-in-out infinite;
   cursor: pointer;
