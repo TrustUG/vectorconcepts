@@ -1002,6 +1002,10 @@ section {
 }
 
 /* gallery section  */
+.gallery {
+  padding-top: 10rem;
+}
+
 .gallery .heading h3 {
   font-size: 2.5rem;
   font-weight: 570;
@@ -1054,4 +1058,68 @@ section {
   rotate: 10deg;
   animation: tiptip 5s ease-in-out infinite;
   cursor: pointer;
+}
+
+/* gallery section  */
+.gallery .imahe-wallper {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  text-align: center;
+}
+
+.gallery .imahe-wallper .image {
+  background-color: #d9d9d9;
+  height: 18rem;
+  width: 14.5rem;
+  border-radius: 2.5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery .imahe-wallper .image:hover {
+  transform: translateY(-1rem);
+}
+
+.gallery .imahe-wallper .image .like {
+  /* background-color: red; */
+  position: absolute;
+  bottom: 1.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .imahe-wallper .image .like .like-svg {
+  background-color: var(--bg-color);
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding-top: 0.16rem;
+  cursor: pointer;
+}
+
+.gallery .imahe-wallper #image-1,
+.gallery .imahe-wallper .image-3,
+.gallery .imahe-wallper .image-4,
+.gallery .imahe-wallper .image-6 {
+  transform: translateY(-2rem);
+}
+
+.gallery .imahe-wallper #image-1:hover,
+.gallery .imahe-wallper .image-3:hover,
+.gallery .imahe-wallper .image-4:hover,
+.gallery .imahe-wallper .image-6:hover {
+  transform: translateY(-3rem);
+}
+
+.gallery .imahe-wallper .image .like .like-svg svg {
+  width: 1.8rem;
 }
