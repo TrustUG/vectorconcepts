@@ -1308,7 +1308,7 @@ section {
 
 /* links  */
 .contact .links {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1325,19 +1325,19 @@ section {
 }
 
 .contact .links .box svg {
-  width: 3.2rem;
+  width: 2rem;
   stroke: var(--main-color);
 }
 
 .contact .links .box .content-box {
-  gap: 1.7rem;
+  gap: 1.1rem;
   display: flex;
   align-items: start;
   flex-direction: column;
 }
 
 .contact .links .box .content-box h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text-color);
   line-height: 0;
@@ -1345,7 +1345,7 @@ section {
 }
 
 .contact .links .box .content-box p {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 400;
   color: var(--para-color);
   line-height: 0;
