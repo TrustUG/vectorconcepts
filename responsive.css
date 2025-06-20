@@ -329,6 +329,14 @@
   .services .heading p {
     gap: 1.7rem;
   }
+
+  .gallery .heading p {
+    gap: 1.7rem;
+  }
+
+  .news-letter .heading p {
+    gap: 1.7rem;
+  }
 }
 
 @media (max-width: 790px) {
@@ -364,7 +372,8 @@
 @media (max-width: 646px) {
   /* wallper  */
   .services .services-wallper,
-  .testimonial .wallper {
+  .testimonial .wallper,
+  .gallery .imahe-wallper {
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -372,5 +381,15 @@
     justify-content: center;
     gap: 2rem;
     text-align: center;
+  }
+
+  .gallery .imahe-wallper {
+  }
+
+  .gallery .imahe-wallper #image-1,
+  .gallery .imahe-wallper .image-3,
+  .gallery .imahe-wallper .image-4,
+  .gallery .imahe-wallper .image-6 {
+    transform: translateY(-0rem);
   }
 }

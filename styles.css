@@ -168,7 +168,7 @@ section {
 }
 
 .btn-cont a:hover {
-  background-color: var(--bg-color);
+  background-color: transparent;
   color: var(--text-color);
 }
 
@@ -311,7 +311,7 @@ section {
 }
 
 .home .content .home-btn:hover {
-  background-color: var(--bg-color);
+  background-color: transparent;
   color: var(--text-color);
 }
 
@@ -1004,6 +1004,10 @@ section {
 /* gallery section  */
 .gallery {
   padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery .heading h3 {
@@ -1120,6 +1124,91 @@ section {
   transform: translateY(-3rem);
 }
 
+.gallery #view-btn {
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 0;
+  padding: 1.4rem 1.3rem;
+  border-radius: 50rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  border: solid 0.1rem var(--main-color);
+}
+
+.gallery #view-btn:hover {
+  color: var(--bg-color);
+  background-color: var(--main-color);
+}
+
 .gallery .imahe-wallper .image .like .like-svg svg {
   width: 1.8rem;
+}
+
+/* news latter  */
+.news-letter {
+  padding-top: 10rem;
+  z-index: 22;
+  position: relative;
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-letter .heading h3 {
+  font-size: 2.5rem;
+  font-weight: 570;
+  color: var(--text-color);
+  text-transform: capitalize;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+}
+
+.news-letter .heading p {
+  /* background-color: red; */
+  font-size: 1.1rem;
+  /* max-width: 28rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--para-color);
+  line-height: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3rem;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+.news-letter .heading p span {
+  max-width: 29rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.news-letter .heading p img {
+  width: 3.5rem;
+  margin-top: -3rem;
+}
+
+.news-letter .heading p .image-2 {
+  width: 3.5rem;
+  cursor: pointer;
+  animation: pall 8s ease-in-out infinite;
+  rotate: -200deg;
+}
+
+.news-letter .heading p .image-1 {
+  rotate: 10deg;
+  animation: tiptip 5s ease-in-out infinite;
+  cursor: pointer;
 }
