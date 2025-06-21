@@ -1345,8 +1345,149 @@ section {
 }
 
 .contact .links .box .content-box p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: var(--para-color);
   line-height: 0;
+}
+
+/* footer  */
+footer {
+  z-index: 22;
+  width: 100%;
+  border-top: 0.1rem solid #acacac6c;
+  margin-top: 7rem;
+}
+
+footer .top {
+  margin: 3.5rem auto 0;
+  max-width: 60rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+footer .top .left .logo img {
+  max-width: 7.8rem;
+}
+
+footer .top .nav-links {
+  margin-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-left: 0.35rem;
+}
+
+footer .top .nav-links a {
+  color: var(--text-color);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+footer .top .socail-links {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  margin-top: 1.5rem;
+  padding-left: 0.3rem;
+}
+
+footer .top .socail-links a svg {
+  width: 1.5rem;
+}
+
+footer .top .right h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+footer .top .right p {
+  font-size: 1rem;
+  color: var(--para-color);
+  margin-top: 0.5rem;
+}
+
+footer .top .right .form {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer .top .right .form form {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+footer .top .right .form form input {
+  width: 100%;
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+  height: 3.3rem;
+  border-radius: 50rem;
+  padding: 0 1.5rem 0 2.5rem;
+  font-style: Montserrat;
+  font-size: 1rem;
+  font-weight: 570;
+  text-transform: capitalize;
+}
+
+footer .top .right .form form input::placeholder {
+  font-weight: 400;
+  color: #979797;
+  font-style: Montserrat;
+}
+
+footer .top .right .form form #btn {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  height: 0;
+  line-height: 0;
+  padding: 1.35rem 0.5rem;
+  border-radius: 50rem;
+  font-weight: 400;
+  width: 6rem;
+  cursor: pointer;
+  border: solid 0.1rem var(--main-color);
+}
+footer .top .right .form form #btn:hover {
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+/* fotter bottom  */
+footer .wallper-bar {
+  border-top: 0.1rem solid #acacac6c;
+  width: 100%;
+  margin-top: 3.5rem;
+}
+
+footer .wallper-bar .bottom {
+  position: relative;
+  padding: 0rem 0 2rem;
+  margin: 2rem auto 0;
+  max-width: 60rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+footer .wallper-bar .bottom p {
+  color: var(--para-color);
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 0.95rem;
+}
+
+footer .wallper-bar .bottom a {
+  color: var(--para-color);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+footer .wallper-bar .bottom a:hover {
+  color: var(--main-color);
 }

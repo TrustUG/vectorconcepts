@@ -437,3 +437,32 @@
     gap: 2rem;
   }
 }
+
+@media (max-width: 596px) {
+  footer .top {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  footer .top .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .top .right h3 {
+    text-align: center;
+  }
+
+  footer .top .right p {
+    text-align: center;
+    max-width: 20rem;
+  }
+
+  footer .top .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

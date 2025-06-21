@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $(document).ready(function () {
+    $("#copyright-year").text(new Date().getFullYear());
+  });
+
   // alert("ok it's ready");
   $("#open").click(function () {
     $("#open").hide();
