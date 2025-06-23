@@ -809,7 +809,7 @@ section {
 .services .services-wallper .box {
   background-color: var(--bg-color);
   padding: 3rem 1.2rem 4rem;
-  border-radius: 2.2rem;
+  border-radius: 2.8rem;
   box-shadow: var(--box-shadow);
   cursor: pointer;
   display: flex;
@@ -948,7 +948,7 @@ section {
 .testimonial .wallper .box {
   background-color: var(--bg-color);
   padding: 2rem 1.1rem 2.5rem;
-  border-radius: 2.2rem;
+  border-radius: 2.7rem;
   box-shadow: var(--box-shadow);
   cursor: pointer;
   display: flex;
