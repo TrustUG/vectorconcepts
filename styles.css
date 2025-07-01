@@ -337,7 +337,7 @@ section {
   background-color: #d9d9d9;
   height: 16rem;
   width: 14rem;
-  border-radius: 2.5rem;
+  border-radius: 2.7rem;
   cursor: pointer;
 }
 
@@ -808,8 +808,8 @@ section {
 
 .services .services-wallper .box {
   background-color: var(--bg-color);
-  padding: 3rem 1.2rem 4rem;
-  border-radius: 2.8rem;
+  padding: 2.5rem 1.2rem 3.5rem;
+  border-radius: 3rem;
   box-shadow: var(--box-shadow);
   cursor: pointer;
   display: flex;
@@ -852,7 +852,7 @@ section {
 
 .services .services-wallper .box h3 {
   margin-top: 0.7rem;
-  font-size: 1.25rem;
+  font-size: 1.27rem;
   text-transform: capitalize;
   color: var(--text-color);
   font-weight: 590;
@@ -863,6 +863,7 @@ section {
   font-size: 1rem;
   color: var(--para-color);
   font-weight: 450;
+  line-height: 1.4rem;
   /* background-color: red; */
   max-width: 13rem;
 }
@@ -983,6 +984,7 @@ section {
   font-weight: 450;
   /* background-color: red; */
   max-width: 13rem;
+  line-height: 1.4rem;
 }
 
 .testimonial .wallper .box .image-cont img {
